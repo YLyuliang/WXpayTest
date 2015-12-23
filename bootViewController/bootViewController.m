@@ -34,6 +34,12 @@
     // 注意:参数配置请查看服务器端Demo
     // 更新时间：2015年11月20日
     //============================================================
+    
+    /*
+     urlString 就是订单网址，请求下面的链接后台服务器就会返回详细订单
+     比如在需要添加支付功能的应用中选择一款商品或者服务，根据商品的信息拼接urlString并用此链接请求
+     或者你所选择的商品直接可以给出链接，只需要按照给出的链接直接请求即可
+    */
     NSString *urlString   = @"http://wxpay.weixin.qq.com/pub_v2/app/app_pay.php?plat=ios";
     //解析服务端返回json数据
     NSError *error;
@@ -44,6 +50,7 @@
     if ( response != nil) {
         NSMutableDictionary *dict = NULL;
         //IOS5自带解析类NSJSONSerialization从response中解析出数据放到字典中
+        //解析出来的数据即为订单的信息
         dict = [NSJSONSerialization JSONObjectWithData:response options:NSJSONReadingMutableLeaves error:&error];
         
         NSLog(@"url:%@",urlString);
@@ -52,7 +59,7 @@
             if (retcode.intValue == 0){
                 NSMutableString *stamp  = [dict objectForKey:@"timestamp"];
                 
-                //调起微信支付
+                //调起微信支付，用请求回来的数据创建请求体，
                 PayReq* req             = [[PayReq alloc] init];
                 req.partnerId           = [dict objectForKey:@"partnerid"];
                 req.prepayId            = [dict objectForKey:@"prepayid"];
@@ -60,7 +67,7 @@
                 req.timeStamp           = stamp.intValue;
                 req.package             = [dict objectForKey:@"package"];
                 req.sign                = [dict objectForKey:@"sign"];
-//                req.total_fee           = 2;
+                //发送请求体 进行支付请求
                 [WXApi sendReq:req];
                 //日志输出
                 NSLog(@"appid=%@\npartid=%@\nprepayid=%@\nnoncestr=%@\ntimestamp=%ld\npackage=%@\nsign=%@",[dict objectForKey:@"appid"],req.partnerId,req.prepayId,req.nonceStr,(long)req.timeStamp,req.package,req.sign );
