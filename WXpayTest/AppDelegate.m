@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "bootViewController.h"
+#import "WXApi.h"
+#import "WXApiObject.h"
+#import "WXApiManager.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +20,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController=[[bootViewController alloc] init];
+    [self.window makeKeyAndVisible];
+    
+    //向微信注册wxd930ea5d5a258f4f
+    [WXApi registerApp:@"wxb4ba3c02aa476ea1" withDescription:@"demo 2.0"];
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return  [WXApi handleOpenURL:url delegate:[WXApiManager sharedManager]];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [WXApi handleOpenURL:url delegate:[WXApiManager sharedManager]];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
