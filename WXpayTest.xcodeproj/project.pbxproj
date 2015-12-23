@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92CF96A21C2A435800770742 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CF96A11C2A435800770742 /* main.m */; };
+		92CF96A51C2A435800770742 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CF96A41C2A435800770742 /* AppDelegate.m */; };
+		92CF96A81C2A435900770742 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CF96A71C2A435900770742 /* ViewController.m */; };
+		92CF96AB1C2A435900770742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CF96A91C2A435900770742 /* Main.storyboard */; };
+		92CF96AD1C2A435900770742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CF96AC1C2A435900770742 /* Assets.xcassets */; };
+		92CF96B01C2A435900770742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CF96AE1C2A435900770742 /* LaunchScreen.storyboard */; };
+		92CF96BB1C2A435900770742 /* WXpayTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CF96BA1C2A435900770742 /* WXpayTestTests.m */; };
+		92CF96C61C2A435900770742 /* WXpayTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CF96C51C2A435900770742 /* WXpayTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92CF96B71C2A435900770742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92CF96951C2A435800770742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92CF969C1C2A435800770742;
+			remoteInfo = WXpayTest;
+		};
+		92CF96C21C2A435900770742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92CF96951C2A435800770742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92CF969C1C2A435800770742;
+			remoteInfo = WXpayTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92CF969D1C2A435800770742 /* WXpayTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXpayTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CF96A11C2A435800770742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92CF96A31C2A435800770742 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92CF96A41C2A435800770742 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92CF96A61C2A435800770742 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92CF96A71C2A435900770742 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92CF96AA1C2A435900770742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92CF96AC1C2A435900770742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92CF96AF1C2A435900770742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92CF96B11C2A435900770742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92CF96B61C2A435900770742 /* WXpayTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXpayTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CF96BA1C2A435900770742 /* WXpayTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXpayTestTests.m; sourceTree = "<group>"; };
+		92CF96BC1C2A435900770742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92CF96C11C2A435900770742 /* WXpayTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXpayTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CF96C51C2A435900770742 /* WXpayTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXpayTestUITests.m; sourceTree = "<group>"; };
+		92CF96C71C2A435900770742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92CF969A1C2A435800770742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF96B31C2A435900770742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF96BE1C2A435900770742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92CF96941C2A435800770742 = {
+			isa = PBXGroup;
+			children = (
+				92CF969F1C2A435800770742 /* WXpayTest */,
+				92CF96B91C2A435900770742 /* WXpayTestTests */,
+				92CF96C41C2A435900770742 /* WXpayTestUITests */,
+				92CF969E1C2A435800770742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92CF969E1C2A435800770742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92CF969D1C2A435800770742 /* WXpayTest.app */,
+				92CF96B61C2A435900770742 /* WXpayTestTests.xctest */,
+				92CF96C11C2A435900770742 /* WXpayTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92CF969F1C2A435800770742 /* WXpayTest */ = {
+			isa = PBXGroup;
+			children = (
+				92CF96A31C2A435800770742 /* AppDelegate.h */,
+				92CF96A41C2A435800770742 /* AppDelegate.m */,
+				92CF96A61C2A435800770742 /* ViewController.h */,
+				92CF96A71C2A435900770742 /* ViewController.m */,
+				92CF96A91C2A435900770742 /* Main.storyboard */,
+				92CF96AC1C2A435900770742 /* Assets.xcassets */,
+				92CF96AE1C2A435900770742 /* LaunchScreen.storyboard */,
+				92CF96B11C2A435900770742 /* Info.plist */,
+				92CF96A01C2A435800770742 /* Supporting Files */,
+			);
+			path = WXpayTest;
+			sourceTree = "<group>";
+		};
+		92CF96A01C2A435800770742 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92CF96A11C2A435800770742 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92CF96B91C2A435900770742 /* WXpayTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				92CF96BA1C2A435900770742 /* WXpayTestTests.m */,
+				92CF96BC1C2A435900770742 /* Info.plist */,
+			);
+			path = WXpayTestTests;
+			sourceTree = "<group>";
+		};
+		92CF96C41C2A435900770742 /* WXpayTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92CF96C51C2A435900770742 /* WXpayTestUITests.m */,
+				92CF96C71C2A435900770742 /* Info.plist */,
+			);
+			path = WXpayTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92CF969C1C2A435800770742 /* WXpayTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CF96CA1C2A435900770742 /* Build configuration list for PBXNativeTarget "WXpayTest" */;
+			buildPhases = (
+				92CF96991C2A435800770742 /* Sources */,
+				92CF969A1C2A435800770742 /* Frameworks */,
+				92CF969B1C2A435800770742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXpayTest;
+			productName = WXpayTest;
+			productReference = 92CF969D1C2A435800770742 /* WXpayTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92CF96B51C2A435900770742 /* WXpayTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CF96CD1C2A435900770742 /* Build configuration list for PBXNativeTarget "WXpayTestTests" */;
+			buildPhases = (
+				92CF96B21C2A435900770742 /* Sources */,
+				92CF96B31C2A435900770742 /* Frameworks */,
+				92CF96B41C2A435900770742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CF96B81C2A435900770742 /* PBXTargetDependency */,
+			);
+			name = WXpayTestTests;
+			productName = WXpayTestTests;
+			productReference = 92CF96B61C2A435900770742 /* WXpayTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92CF96C01C2A435900770742 /* WXpayTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CF96D01C2A435900770742 /* Build configuration list for PBXNativeTarget "WXpayTestUITests" */;
+			buildPhases = (
+				92CF96BD1C2A435900770742 /* Sources */,
+				92CF96BE1C2A435900770742 /* Frameworks */,
+				92CF96BF1C2A435900770742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CF96C31C2A435900770742 /* PBXTargetDependency */,
+			);
+			name = WXpayTestUITests;
+			productName = WXpayTestUITests;
+			productReference = 92CF96C11C2A435900770742 /* WXpayTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92CF96951C2A435800770742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HQMC;
+				TargetAttributes = {
+					92CF969C1C2A435800770742 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2MUG872267;
+					};
+					92CF96B51C2A435900770742 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2MUG872267;
+						TestTargetID = 92CF969C1C2A435800770742;
+					};
+					92CF96C01C2A435900770742 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2MUG872267;
+						TestTargetID = 92CF969C1C2A435800770742;
+					};
+				};
+			};
+			buildConfigurationList = 92CF96981C2A435800770742 /* Build configuration list for PBXProject "WXpayTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92CF96941C2A435800770742;
+			productRefGroup = 92CF969E1C2A435800770742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92CF969C1C2A435800770742 /* WXpayTest */,
+				92CF96B51C2A435900770742 /* WXpayTestTests */,
+				92CF96C01C2A435900770742 /* WXpayTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92CF969B1C2A435800770742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CF96B01C2A435900770742 /* LaunchScreen.storyboard in Resources */,
+				92CF96AD1C2A435900770742 /* Assets.xcassets in Resources */,
+				92CF96AB1C2A435900770742 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF96B41C2A435900770742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF96BF1C2A435900770742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92CF96991C2A435800770742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CF96A81C2A435900770742 /* ViewController.m in Sources */,
+				92CF96A51C2A435800770742 /* AppDelegate.m in Sources */,
+				92CF96A21C2A435800770742 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF96B21C2A435900770742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CF96BB1C2A435900770742 /* WXpayTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF96BD1C2A435900770742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CF96C61C2A435900770742 /* WXpayTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92CF96B81C2A435900770742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92CF969C1C2A435800770742 /* WXpayTest */;
+			targetProxy = 92CF96B71C2A435900770742 /* PBXContainerItemProxy */;
+		};
+		92CF96C31C2A435900770742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92CF969C1C2A435800770742 /* WXpayTest */;
+			targetProxy = 92CF96C21C2A435900770742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92CF96A91C2A435900770742 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92CF96AA1C2A435900770742 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92CF96AE1C2A435900770742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92CF96AF1C2A435900770742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92CF96C81C2A435900770742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92CF96C91C2A435900770742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92CF96CB1C2A435900770742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WXpayTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuliang.WXpayTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92CF96CC1C2A435900770742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WXpayTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuliang.WXpayTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92CF96CE1C2A435900770742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WXpayTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuliang.WXpayTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXpayTest.app/WXpayTest";
+			};
+			name = Debug;
+		};
+		92CF96CF1C2A435900770742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WXpayTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuliang.WXpayTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXpayTest.app/WXpayTest";
+			};
+			name = Release;
+		};
+		92CF96D11C2A435900770742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WXpayTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuliang.WXpayTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WXpayTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		92CF96D21C2A435900770742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WXpayTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuliang.WXpayTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WXpayTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92CF96981C2A435800770742 /* Build configuration list for PBXProject "WXpayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF96C81C2A435900770742 /* Debug */,
+				92CF96C91C2A435900770742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CF96CA1C2A435900770742 /* Build configuration list for PBXNativeTarget "WXpayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF96CB1C2A435900770742 /* Debug */,
+				92CF96CC1C2A435900770742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92CF96CD1C2A435900770742 /* Build configuration list for PBXNativeTarget "WXpayTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF96CE1C2A435900770742 /* Debug */,
+				92CF96CF1C2A435900770742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92CF96D01C2A435900770742 /* Build configuration list for PBXNativeTarget "WXpayTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF96D11C2A435900770742 /* Debug */,
+				92CF96D21C2A435900770742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92CF96951C2A435800770742 /* Project object */;
+}
